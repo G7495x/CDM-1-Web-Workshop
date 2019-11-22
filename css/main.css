@@ -123,6 +123,7 @@ img{
 	width: 100%;
 	height: 160px;
 	filter: saturate(0);
+	object-fit: cover;
 }
 
 .project img:hover{
