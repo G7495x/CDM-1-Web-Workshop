@@ -7,22 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <body>
+	<header class="container-fluid">
+		<div class="row text-center">
+			<div class="col-2"></div>
+			<div class="col-2 white"><a href="#home">HOME</a></div>
+			<div class="col-2 white"><a href="#about">ABOUT</a></div>
+			<div class="col-2 white-bg"><a href="#skills">SKILLS</a></div>
+			<div class="col-2 white-bg"><a href="#works">WORKS</a></div>
+			<div class="col-2 white-bg"></div>
+		</div>
+	</header>
 	<content>
-		<header class="container-fluid">
-			<div class="row justify-content-center text-center">
-				<div class="col-2 white"><a href="#home">Home</a></div>
-				<div class="col-2 white"><a href="#about">About</a></div>
-				<div class="col-2 white-bg"><a href="#skills">Skills</a></div>
-				<div class="col-2 white-bg"><a href="#projects">Projects</a></div>
-			</div>
-		</header>
 		<section id="home" class="container-fluid">
 			<div class="row">
 				<div class="col-6 left-half d-flex align-items-center justify-content-end">
 					<div class="text-right">
 						<h1 class="display-3">HELLO</h1>
 						<div class="text-muted">Pleased to meet you.</div>
-						<!-- <h1 style="padding-top: 30px"><i class="fa fa-arrow-down text-muted"></i></h1> -->
+						<h1 style="padding-top: 30px" hidden><i class="fa fa-arrow-down text-muted"></i></h1>
 					</div>
 				</div>
 				<div class="col-6 right-half d-flex align-items-center justify-content-start">
@@ -37,15 +39,94 @@
 			<div class="row">
 				<div class="col-6 left-half d-flex flex-column align-items-end">
 					<h1 class="display-1 font-weight-bold text-muted">ABOUT</h1>
-					<div class="overlay-text h5">Hi! I'm John Doe</div>
+					<div class="overlay-text h5">HI! I'M JOHN DOE</div>
 				</div>
-				<div class="col-6 right-half">
+				<div class="col-6 right-half d-flex flex-column">
 					<h1><span class="text-muted">LET ME </span><b>INTRODUCE</b></h1>
 					<div class="spacer"></div>
-					<img src="imgs/photo.jpg" style="height: 200px">
+					<img class="align-self-start" src="imgs/photo.jpg" style="height: 200px">
 					<div class="spacer"></div>
-					<div class="spacer"></div>
+					<!-- <div class="spacer"></div> -->
 					<div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+					<div class="flex-grow-1"></div>
+					<h4>
+						<a href="" class="social-media-icon fa fa-twitter"></a>
+						<a href="" class="social-media-icon fa fa-linkedin"></a>
+						<a href="" class="social-media-icon fa fa-behance"></a>
+						<a href="" class="social-media-icon fa fa-dribbble"></a>
+						<a href="" class="social-media-icon fa fa-deviantart"></a>
+					</h4>
+					<div>Email: <a class="accented" target="_blank" href="mailto:john.doe@email.com">john.doe@email.com</a></div>
+					<div>Phone: <a class="accented" target="_blank" href="tel:555-555-5555">555-555-5555</a></div>
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="container-fluid">
+			<div class="row">
+				<div class="col-6 left-half d-flex flex-column align-items-end">
+					<h1 class="display-1 font-weight-bold text-muted">SKILLS</h1>
+					<div class="overlay-text h5">WHAT I DO</div>
+				</div>
+				<div class="col-6 right-half d-flex flex-column">
+					<h1><span class="text-muted">MY </span><b>SERVICES</b></h1>
+					<div class="spacer"></div>
+					<div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					<div class="spacer"></div>
+					<div>
+						<h3 class="accented"><i class="fa fa-cogs"></i> <small>PRODUCT STRATEGY</small></h3>
+						<div>
+							<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+							<div class="spacer"></div>
+						</div>
+					</div>
+					<div>
+						<h3 class="accented"><i class="fa fa-code"></i> <small>DEVELOPMENT</small></h3>
+						<div>
+							<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+							<div class="spacer"></div>
+						</div>
+					</div>
+					<div>
+						<h3 class="accented"><i class="fa fa-paint-brush"></i> <small>DESIGN</small></h3>
+						<div>
+							<small class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+							<div class="spacer"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="works" class="container-fluid">
+			<div class="row">
+				<div class="col-6 left-half d-flex flex-column align-items-end">
+					<h1 class="display-1 font-weight-bold text-muted">WORKS</h1>
+					<div class="overlay-text h5">MY PROJECTS</div>
+				</div>
+				<div class="col-6 right-half d-flex flex-column">
+					<h1><span class="text-muted">SOME OF </span><b>MY WORKS</b></h1>
+					<div class="spacer"></div>
+					<div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+					<div class="spacer"></div>
+					<div class="row">
+						<div class="project col-6">
+							<img src="imgs/project-1.jpg">
+							<div class="spacer"></div>
+							<div><b>Project 1</b></div>
+							<small class="project-description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small>
+						</div>
+						<div class="project col-6">
+							<img src="imgs/project-2.jpg">
+							<div class="spacer"></div>
+							<div><b>Project 2</b></div>
+							<small class="project-description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small>
+						</div>
+						<div class="project col-6">
+							<img src="imgs/project-2.jpg">
+							<div class="spacer"></div>
+							<div><b>Project 3</b></div>
+							<small class="project-description text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</small>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
